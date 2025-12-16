@@ -95,7 +95,7 @@ def home():
             "response": "Your card was declined",
             "status": "declined"
         },
-        "note": "All requests return 'Your card was declined' with 7-12 second delay"
+        "note": "must join @Toenv"
     })
 
 @app.route('/health')
@@ -158,7 +158,7 @@ if __name__ == '__main__':
     "response": "Your card was declined",
     "status": "declined"
   }''')
-    print(f"\n⏱️  Processing time: 7-12 seconds")
+    print(f"\n⏱️  Processing time: 0 seconds")
     print("="*70)
     
     app.run(host='0.0.0.0', port=PORT, debug=False)
